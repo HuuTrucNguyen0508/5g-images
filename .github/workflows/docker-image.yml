@@ -20,4 +20,4 @@ jobs:
         username: ${{ secrets.OPEN5GS_USR }}
         password: ${{ secrets.DOCKER_OPEN5GS_TRUC }}
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag huutrucnguyen0508/truc_Open5gs:$(date +%s)
+      run: docker build . --file Dockerfile --tag huutrucnguyen0508/truc_open5gs:$(date +%s)
