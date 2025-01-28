@@ -1,6 +1,6 @@
 FROM debian:bullseye as builder
 
-ARG version
+ARG version 
 ARG branch=main
 ENV VERSION=$version
 ENV BRANCH=$branch
